@@ -1,5 +1,5 @@
 <template>
-  <div class="nav-wrapper position-relative end-0">
+  <div class="nav-wrapper position-relative end-0 mb-3">
     <ul class="nav nav-pills nav-fill p-1" role="tablist">
       <li class="nav-item">
         <a
@@ -8,7 +8,7 @@
           href="@/examples/pages/account/settings.html"
           role="tab"
           aria-selected="true"
-          >Messages</a
+          >재료</a
         >
       </li>
       <li class="nav-item">
@@ -18,7 +18,7 @@
           href="@/examples/pages/account/billing.html"
           role="tab"
           aria-selected="false"
-          >Social</a
+          >음료</a
         >
       </li>
       <li class="nav-item">
@@ -28,17 +28,8 @@
           href="@/examples/pages/account/invoice.html"
           role="tab"
           aria-selected="false"
-          >Notifications</a
+          >베이커리</a
         >
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link mb-0 px-0 py-1"
-          data-bs-toggle="tab"
-          href="@/examples/pages/account/security.html"
-          role="tab"
-          aria-selected="false"
-          >Backup</a>
       </li>
     </ul>
   </div>
